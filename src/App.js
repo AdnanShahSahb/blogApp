@@ -10,11 +10,9 @@ function App() {
 
   const [isAuth,setIsAuth]=useState(localStorage.getItem("isAuthing"));
   
-  
   return (
     <div className="App" >
       
-
       <Navbar setIsAuth={setIsAuth} isAuth={isAuth} />
 
       <Routes>
