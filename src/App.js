@@ -17,7 +17,6 @@ function App() {
 
       <Navbar setIsAuth={setIsAuth} isAuth={isAuth} />
 
-      <h1 className="my-5">Welcome to Adnans Blog App</h1>
       <Routes>
       <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
         <Route path="/" element={<Home accLoggedIn={isAuth}/>} />
