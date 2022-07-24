@@ -1,0 +1,10 @@
+.container-fluid{
+  font-family: cursive;
+  border:1px solid rgb(157, 153, 153);
+  overflow:visible;
+}
+
+.imaginging{
+  border-radius: 7px;
+  border:1px solid rgb(157, 153, 153);
+}
