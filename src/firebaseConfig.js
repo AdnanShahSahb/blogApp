@@ -6,22 +6,22 @@ import {getFirestore} from "firebase/firestore"
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD18IvHxskssV4MzPRJmrhel-9ChGbCvRE",
-  authDomain: "bloging-f2980.firebaseapp.com",
-  projectId: "bloging-f2980",
-  storageBucket: "bloging-f2980.appspot.com",
-  messagingSenderId: "68812122450",
-  appId: "1:68812122450:web:2a149bdcb5f3975f28b28b"
-};
 // const firebaseConfig = {
-//   apiKey: "AIzaSyDSJvythfioUUn_M4ypdDOLjIvFKRUAcsE",
-//   authDomain: "bloggin2.firebaseapp.com",
-//   projectId: "bloggin2",
-//   storageBucket: "bloggin2.appspot.com",
-//   messagingSenderId: "787235590224",
-//   appId: "1:787235590224:web:b4e3c75b6782ae81048155"
+//   apiKey: "AIzaSyD18IvHxskssV4MzPRJmrhel-9ChGbCvRE",
+//   authDomain: "bloging-f2980.firebaseapp.com",
+//   projectId: "bloging-f2980",
+//   storageBucket: "bloging-f2980.appspot.com",
+//   messagingSenderId: "68812122450",
+//   appId: "1:68812122450:web:2a149bdcb5f3975f28b28b"
 // };
+const firebaseConfig = {
+  apiKey: "AIzaSyDSJvythfioUUn_M4ypdDOLjIvFKRUAcsE",
+  authDomain: "bloggin2.firebaseapp.com",
+  projectId: "bloggin2",
+  storageBucket: "bloggin2.appspot.com",
+  messagingSenderId: "787235590224",
+  appId: "1:787235590224:web:b4e3c75b6782ae81048155"
+};
 
 
 // Initialize Firebase
