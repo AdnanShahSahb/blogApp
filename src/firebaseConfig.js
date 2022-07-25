@@ -14,13 +14,22 @@ import {getFirestore} from "firebase/firestore"
 //   messagingSenderId: "68812122450",
 //   appId: "1:68812122450:web:2a149bdcb5f3975f28b28b"
 // };
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDSJvythfioUUn_M4ypdDOLjIvFKRUAcsE",
+//   authDomain: "bloggin2.firebaseapp.com",
+//   projectId: "bloggin2",
+//   storageBucket: "bloggin2.appspot.com",
+//   messagingSenderId: "787235590224",
+//   appId: "1:787235590224:web:b4e3c75b6782ae81048155"
+// };
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDSJvythfioUUn_M4ypdDOLjIvFKRUAcsE",
-  authDomain: "bloggin2.firebaseapp.com",
-  projectId: "bloggin2",
-  storageBucket: "bloggin2.appspot.com",
-  messagingSenderId: "787235590224",
-  appId: "1:787235590224:web:b4e3c75b6782ae81048155"
+  apiKey: "AIzaSyASthO-85V3XYyX5NsoIGTmDRUYpJtWw-4",
+  authDomain: "blog3-16d5b.firebaseapp.com",
+  projectId: "blog3-16d5b",
+  storageBucket: "blog3-16d5b.appspot.com",
+  messagingSenderId: "888289864940",
+  appId: "1:888289864940:web:f99756234df7845db489c9"
 };
 
 

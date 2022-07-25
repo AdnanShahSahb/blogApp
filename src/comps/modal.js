@@ -17,7 +17,7 @@ const Modaling=(props)=>{
     </div>
       <br/>
       <hr/>
-      <p>{props.paras}</p>
+      <p className="my-5">{props.paras}</p>
   </div>
 <br/>
 
