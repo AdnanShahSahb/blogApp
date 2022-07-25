@@ -25,7 +25,7 @@ return(
     <h2>{`${props.title[0].toUpperCase() + props.title.substring(1)}`}</h2>
     
  <br/>
-  <p  className="text-right font-italic"><span className="float-left"> Date: {props.date} </span> <img src={props.authorURL} className="authorDP w-25 p-3" />  BY {props.author} </p> 
+  <p  className="text-right font-italic"><span className="float-left"> {props.date} </span> <img src={props.authorURL} className="authorDP w-25 p-3" />  BY {props.author} </p> 
   
   <div className="content text-left ">
   <p>{`${props.paras.substring(0, 100)}...`}<a className="link" onClick={handlePassing} role="button">View all</a></p>

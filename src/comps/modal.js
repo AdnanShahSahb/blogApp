@@ -14,12 +14,10 @@ const Modaling=(props)=>{
       <h2>{`${props.title[0].toUpperCase() + props.title.substring(1)}`}</h2>
       <h5><span className="glyphicon glyphicon-time"></span> Post by {props.author}, {props.date}</h5>
       
-      <br/>
-      <br/>
+    </div>
       <br/>
       <hr/>
       <p>{props.paras}</p>
-    </div>
   </div>
 <br/>
 
