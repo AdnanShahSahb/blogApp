@@ -14,7 +14,8 @@ const CreatePost = (props) => {
     const userPostImgUrl=useRef();
     const userPara=useRef();
 
-    var title,para,date,postImgUrl;
+    var title,para,date,postImgUrl,time;
+
 
     const handleForm=(e)=>{
     e.preventDefault();
@@ -23,7 +24,7 @@ const CreatePost = (props) => {
         postImgUrl=userPostImgUrl.current.value;
         para=userPara.current.value;
         date=new Date().toDateString();
-        console.log(date);
+        time=new Date().toLocaleTimeString();
 
         if(title=== ""){
             alert('title required')
@@ -47,7 +48,7 @@ const CreatePost = (props) => {
         const refPostCollection=collection(db,"posts")
 
         const createPost= async()=>{
-            await addDoc(refPostCollection,{title,para,date,postImgUrl,authorName:auth.currentUser.displayName,authorId:auth.currentUser.uid,authorURL:auth.currentUser.photoURL})
+            await addDoc(refPostCollection,{title,para,time,date,postImgUrl,authorName:auth.currentUser.displayName,authorId:auth.currentUser.uid,authorURL:auth.currentUser.photoURL})
     
         }
         createPost();
